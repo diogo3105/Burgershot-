@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burgershot - Cardápio</title>
+  <style>
+    body {
+      background-color: #fff8d6; /* amarelo claro */
+      font-family: Arial, sans-serif;
+      color: #000;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #d32f2f; /* vermelho */
+      padding: 20px;
+    }
+    header img {
+      max-width: 200px;
+    }
+    h1 {
+      color: #d32f2f;
+      margin-top: 30px;
+    }
+    h2 {
+      color: #d32f2f;
+      border-bottom: 2px solid #d32f2f;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+    .menu-section {
+      margin: 30px 0;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      font-size: 18px;
+    }
+    li {
+      margin: 8px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Burger_King_logo_2020.svg" alt="Logo Burgershot">
+  </header>
+
+  <h1>Cardápio Burgershot</h1>
+
+  <div class="menu-section">
+    <h2>Hambúrgueres</h2>
+    <ul>
+      <li>Hamburguer sangrento — 40€</li>
+      <li>Hamburguer para-corações — 30€</li>
+      <li>Hamburguer sem carne — 35€</li>
+      <li>Hamburguer tiro certeiro — 45€</li>
+      <li>Hamburguer fingle — 30€</li>
+      <li>Sanduíche — 25€</li>
+    </ul>
+  </div>
+
+  <div class="menu-section">
+    <h2>Acompanhamento</h2>
+    <ul>
+      <li>Batata-frita — 18€</li>
+    </ul>
+  </div>
+
+  <div class="menu-section">
+    <h2>Bebidas</h2>
+    <ul>
+      <li>Lata cola — 12€</li>
+      <li>Lata sprunk — 8€</li>
+      <li>Sumo de laranja — 10€</li>
+      <li>Sumo de ananás — 8€</li>
+      <li>Drang o tang — 10€</li>
+      <li>Garrafa de água — 8€</li>
+    </ul>
+  </div>
+
+</body>
+</html>
